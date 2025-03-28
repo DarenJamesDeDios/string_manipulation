@@ -2,4 +2,7 @@
 string = "DeDios"
 suffix = "ios"
 
-
+if string[-len(suffix):] == suffix:
+    print(f"The string '{string}' ends with '{suffix}'.")
+else:
+    print(f"The string '{string}' does not end with '{suffix}'.")
