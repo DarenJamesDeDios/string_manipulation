@@ -2,3 +2,9 @@
 string = "ReFrEsHiNg DrInKs"
 alternate_string = []
 
+for word in string:
+    if word.isupper():
+        alternate_string.append(word.lower())
+    else:
+        alternate_string.append(word.upper())
+print(''.join(alternate_string))
