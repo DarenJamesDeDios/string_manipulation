@@ -3,6 +3,6 @@ string = "How are you?"
 words = string.split()  # Split the string into words
 title_string = ""
 for word in words:
-    title_string += word.capitalize()  # Capitalize each word and add a space after it
+    title_string += word.capitalize() + " " # Capitalize each word and add a space after it
 
 print(title_string)
