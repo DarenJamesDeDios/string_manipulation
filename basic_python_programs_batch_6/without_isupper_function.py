@@ -4,3 +4,7 @@ uppercase_letters = 0
 for letter in string:
     if letter.islower():
         uppercase_letters += 1
+if len(string) == uppercase_letters:
+    print("All letters are uppercase")
+else:
+    print("Not all letters are uppercase")
