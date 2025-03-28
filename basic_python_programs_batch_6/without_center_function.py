@@ -5,4 +5,11 @@ fillchar = " "
 
 total_padding = width - len(text)
 
+if total_padding > 0:
+    left_padding = total_padding // 2
+    right_padding = total_padding - left_padding
+    centered_text = fillchar * left_padding + text + fillchar * right_padding
+else:
+    centered_text = text
 
+print(centered_text)
