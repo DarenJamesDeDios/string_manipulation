@@ -5,5 +5,9 @@ fill_char = " "
 
 padding_needed = width - len(string)
 
+if padding_needed > 0:
+    string = string + (fill_char * padding_needed)
+
+print(string, "Reid") 
 
 
