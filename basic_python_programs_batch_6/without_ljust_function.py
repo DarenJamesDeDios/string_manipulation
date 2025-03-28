@@ -3,3 +3,7 @@ string = "James"
 width = 10
 fill_char = " "
 
+padding_needed = width - len(string)
+
+
+
