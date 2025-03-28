@@ -6,3 +6,5 @@ if string.startswith(prefix_remove):
     result = string[len(prefix_remove):]
 else:
     result = string
+
+print(result)
