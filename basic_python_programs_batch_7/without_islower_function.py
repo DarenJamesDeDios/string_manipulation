@@ -8,3 +8,8 @@ for letter in string:
         continue
     else:
         lowercase_letters += 1
+#print if True or False
+if len(string) == lowercase_letters:
+    print("All letters are lowercase")
+else:
+    print("Not all letters are lowercase")
