@@ -5,4 +5,9 @@ substring = "hello"
 
 #loop through the string starting from the end
 for i in range(len(string) - len(substring), -1, -1):
-
+    # Check if the substring matches starting at the current index
+    match_found = True
+    for j in range(len(substring)):
+        if string[i + j] != substring[j]:
+            match_found = False
+            break
