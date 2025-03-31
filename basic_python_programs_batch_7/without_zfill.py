@@ -2,5 +2,5 @@
 #planning to use f-strings instead
 inputed_number = (input("Enter a number from 0-1000: ")) #user input for more interaction 
 
-print(f"{inputed_number:06}") #f-string for adding zeros
+print(f"{inputed_number:0>6}") #f-string for adding zeros
 
