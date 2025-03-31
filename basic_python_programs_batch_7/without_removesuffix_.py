@@ -4,7 +4,8 @@ string =  "Daren James De Dios"
 suffix_remove = "ios"
 #a block of code that checks if the string has the suffix in the end of the string
 if string.endswith(suffix_remove):
-    result = string[-len(suffix_remove)]  #checks if the string ends with the specified suffix
+    result = string[:-len(suffix_remove)] #check if the strings ends with the specified suffix
 else:
     result = string
 #printting the result
+print(result)
