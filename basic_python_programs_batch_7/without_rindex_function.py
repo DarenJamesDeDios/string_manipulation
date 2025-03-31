@@ -11,3 +11,8 @@ for i in range(len(string) - len(substring), -1, -1):
         if string[i + j] != substring[j]:
             match_found = False
             break
+    if match_found:
+        print(f"The last occurrence of the substring '{substring}' is at index {i}.")
+        break
+else:
+    print(f"The substring '{substring}' is not found.")
