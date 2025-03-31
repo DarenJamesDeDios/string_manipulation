@@ -2,3 +2,9 @@
 #initialized the strings and values
 string = input("Enter a statement/word: ")
 lowercase_letters = 0
+#a block of code that checks if all letters are lowercase
+for letter in string:
+    if letter.isupper():
+        continue
+    else:
+        lowercase_letters += 1
